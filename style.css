@@ -1,0 +1,43 @@
+/* RESET  */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    height: calc(100vh - 80px);
+    width: 40px;
+    background-color: black;
+    position: fixed;
+}
+
+.main-top {
+    height: 100px;
+    width: 100vw;
+    background-color: #090B13;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.main-center {
+    background-color: #141922;
+    height: calc(100vh - 180px);
+    width: 100vw;
+   
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-bar {
+    height: 80px;
+    width: 100vw;
+    background-color: #282828;
+}

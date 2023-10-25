@@ -21,13 +21,49 @@ body {
 }
 
 #small-logo {
-    width: 30px;
+    width: 24px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.header-tool-bar {
+    width: 100%;
+}
+
+.white-emoji {
+    color: white;
     margin: 0 auto;
     padding: 10px 0px;
 }
 
+.big-emoji {
+    font-size: 18px;
+}
 
-.white-emoji {
+.small-emoji {
+    width: 16px;
+}
+
+.profile-pic {
+    height: 18px;
+    width: 18px;
+    object-fit: contain;
+    margin: 0 auto;
+    border: solid 1px white;
+    border-radius: 50%;
+    background-color: gray;
+    margin-bottom: 10px;
+    background-image: url(img/profile.svg);
+
+}
+
+.space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.account {
     color: white;
 }
 

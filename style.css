@@ -107,7 +107,7 @@ hr {
     font-size: 18px;
 }
 
-.small-emoji {
+.small-emoji img{
     width: 14px;
     margin-bottom: 10px;
 }
@@ -320,6 +320,9 @@ hr {
 
     .small-emoji > p {
         display: inline-block;
+        font-size: 16px;
+        line-height: 14px;
+        
     }
 
     hr {

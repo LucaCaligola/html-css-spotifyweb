@@ -25,15 +25,37 @@ body {
     margin: 0 auto;
     padding-top: 10px;
 }
+#big-logo {
+    display: none;
+}
 
-.header-tool-bar {
+.big-emoji > p {
+    display: none;
+}
+
+.small-emoji > p {
+    display: none;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+hr {
+    color: white;
+    width: 80%;
+    margin: 5px auto 20px auto;
+    display: none;
+
+}
+
+.header-tool-bar-mobile {
     width: 100%;
 }
+
 
 .white-emoji {
     color: white;
     margin: 0 auto;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .big-emoji {
@@ -41,7 +63,7 @@ body {
 }
 
 .small-emoji {
-    width: 16px;
+    width: 14px;
 }
 
 .profile-pic {
@@ -63,7 +85,7 @@ body {
     justify-content: space-between;
 }
 
-.account {
+.account-mobile {
     color: white;
 }
 
@@ -114,7 +136,7 @@ body {
 
 .main-center {
     background-color: #141922;
-    height: 100%;
+    height: 100vh;
     width: 100vw;
     color: white;
     /* margin-left:40px ;
@@ -127,6 +149,7 @@ body {
 
 .image img{
     width: 190px;
+   
 
     
 }
@@ -208,6 +231,46 @@ body {
 
     }
 
+    #small-logo {
+        display: none;
+    }
+
+    #big-logo { 
+        display: inline-block;
+        width: 110px;
+        margin: 20px 0px 25px 15px;
+     
+    }
+
+    .big-emoji {
+        margin: 0px 20px;
+        
+    }
+
+    .big-emoji > p {
+        display: inline-block;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    
+    .white-emoji {
+        margin: 0px 20px;
+    
+    }
+
+    .small-emoji > p {
+        display: inline-block;
+    }
+
+    hr {
+        display: block;
+    }
+
+    .profile-pic {
+        margin: 0px 10px 10px 20px;
+    }
+    
+
 }
 
 
@@ -231,6 +294,7 @@ body {
 
     }
 
+   
 
 
 

@@ -17,7 +17,45 @@ body {
     width: 45px;
     background-color: black;
     position: fixed;
-   
+}
+
+.playlist h2 {
+    color: white;
+    padding: 5px 0px;
+    margin: 20px 0px 0px 20px;
+    font-size: 18px;
+}
+
+#square-box {
+    /* width: 30px;
+    height: 30px;
+    background-color: #7A7C82; */
+    
+    margin: 20px 5px 10px 20px;
+}
+
+.playlist {
+    color: #7A7C82;
+    display: none;
+}
+
+#square-box > span {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 8px 15px;
+    background-color: #7A7C82;
+    color: #090B13;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 5px 0px 20px;
+    line-height: 2.2;
+}
+
+.playlist p {
+    color: #7A7C82;
+    margin: 20px 0px 10px 5px;
 }
 
 #small-logo {
@@ -25,6 +63,7 @@ body {
     margin: 0 auto;
     padding-top: 10px;
 }
+
 #big-logo {
     display: none;
 }
@@ -58,17 +97,24 @@ hr {
     padding: 5px 0px;
 }
 
+.gray-emoji {
+    color: #7A7C82;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+
 .big-emoji {
     font-size: 18px;
 }
 
 .small-emoji {
     width: 14px;
+    margin-bottom: 10px;
 }
 
 .profile-pic {
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    width: 24px;
     object-fit: contain;
     margin: 0 auto;
     border: solid 1px white;
@@ -76,7 +122,12 @@ hr {
     background-color: gray;
     margin-bottom: 10px;
     background-image: url(img/profile.svg);
+}
 
+
+.flex-row-justify p {
+    display: none;
+    margin-bottom: 10px;
 }
 
 .space-between {
@@ -131,6 +182,12 @@ hr {
 
 .flex-row {
     display: flex;
+   
+}
+
+.flex-row-justify {
+    display: flex;
+    align-items: center;
    
 }
 
@@ -255,7 +312,10 @@ hr {
     
     .white-emoji {
         margin: 0px 20px;
-    
+    }
+
+    .gray-emoji {
+        margin: 0px 20px;
     }
 
     .small-emoji > p {
@@ -269,7 +329,19 @@ hr {
     .profile-pic {
         margin: 0px 10px 10px 20px;
     }
+
+    /* .flex-row {
+        align-items: center;
+    } */
+
+    .flex-row-justify p {
+        display: inline-block;
+        
+    }
     
+    .playlist {
+        display: block;
+    }
 
 }
 

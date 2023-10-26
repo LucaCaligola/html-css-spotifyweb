@@ -60,6 +60,10 @@ ul {
     margin: 20px 0px 10px 5px;
 }
 
+.main-center > h2 {
+    margin-left: 10px;
+}
+
 #small-logo {
     width: 24px;
     margin: 0 auto;
@@ -204,8 +208,9 @@ hr {
 }
 
 .image img{
-    width: 190px;
-   
+    /* width: 190px; */
+    width: 100%;
+    height: auto;
 
     
 }
@@ -225,9 +230,10 @@ hr {
 }
 
 .image {
+    width: 50%;
     text-align: center;
     margin-bottom:10px ;
-    padding: 10px 0px 0px 20px;
+    padding: 10px 10px 0px 10px;
 
 }
 
@@ -236,11 +242,13 @@ hr {
 }
 
 .image-second {
-    margin-right: 20px;
+    padding: 10px 10px 0px 10px;
+    width: 50%;
 }
 
 .image-second img {
-    width: 190px;
+    width: 100%;
+    height: auto;
 }
 
 .image-second h3 {
@@ -398,6 +406,10 @@ hr {
 
     }
 
+    .image, .image-second{
+        width: 25%;
+    }
+
    
 
 
@@ -418,4 +430,10 @@ hr {
         margin-left: 200px;
         text-align: center;
 
+    }
+
+
+    .image, .image-second {
+        width: calc(100% / 6);
+      
     }

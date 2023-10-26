@@ -61,7 +61,7 @@ ul {
 }
 
 .main-center > h2 {
-    margin-left: 10px;
+    margin: 0px 0px 20px 10px;
 }
 
 #small-logo {
@@ -148,7 +148,7 @@ hr {
 
 
 .nav-text {
-    padding: 5px 0px 20px 30px;
+    padding: 5px 0px 20px 20px;
     font-size: 12px;
     color: #7A7C82;
 }
@@ -289,17 +289,53 @@ hr {
     background-color: #282828;
     position: fixed;
     bottom: 0;
-   
+}
 
+.task-bar-image img {
+    width: 100%;
+    height: auto;
+ 
+
+}
+
+.task-bar-image {
+    margin: 10px;
     
+   
 }
 
 
+.task-bar-image {
+    width: 8%;
+    height: auto;
+}
 
+.text-image-task-bar {
+    font-size: 12px;
+    padding: 15px 20px 0 0;
+}
 
+.flex-row-align {
+    height: 100%;
+    display: flex;
+    
+   
+}
+.text-image-task-bar h4 {
+    color: white;
+}
 
+.text-image-task-bar p {
+    color: #7A7C82;
+}
 
+.task-bar-like {
+    color: #7A7C82;
+    padding: 15px 30px 0 0;
+}
 
+.task-bar-like i {
+    margin: auto;
 
 
 
@@ -312,6 +348,7 @@ hr {
  @media screen and (min-width: 576px) {
     .container { min-width: 576px;
     }
+    
     .header {
         width: 200px;
     }
@@ -383,6 +420,13 @@ hr {
         display: block;
     }
 
+
+    .task-bar-image {
+        max-width: 50px
+      
+    
+        
+    }
 }
 
 
@@ -399,11 +443,6 @@ hr {
 
 @media screen and (min-width: 768px) {
     .container { min-width: 768px;
-    }
-
-    .text-center {
-        width: 70vw;
-
     }
 
     .image, .image-second{
@@ -431,7 +470,6 @@ hr {
         text-align: center;
 
     }
-
 
     .image, .image-second {
         width: calc(100% / 6);

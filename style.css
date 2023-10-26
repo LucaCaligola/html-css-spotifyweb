@@ -299,9 +299,8 @@ hr {
 }
 
 .task-bar-image {
-    margin: 10px;
-    
-   
+    margin: 7px 15px 7px 7px;
+
 }
 
 
@@ -311,14 +310,19 @@ hr {
 }
 
 .text-image-task-bar {
-    font-size: 12px;
-    padding: 15px 20px 0 0;
+    font-size:10px;
+    padding: 0px 10px 0 0;
+}
+
+.task-bar-container {
+    height: 100%;
 }
 
 .flex-row-align {
     height: 100%;
-    display: flex;
     
+    display: flex;
+    align-items: center;
    
 }
 .text-image-task-bar h4 {
@@ -335,7 +339,36 @@ hr {
 }
 
 .task-bar-like i {
-    margin: auto;
+   margin-bottom: 5px;
+
+}
+
+.button-and-bar  {
+    width: 33vw;
+    color: white;
+    /* margin: auto; */
+}
+
+.button-section {
+    
+}
+
+.flex-column-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-row-spaced {
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-bar hr {
+    width: 100%;
+   
+
+}
 
 
 

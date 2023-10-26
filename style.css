@@ -12,6 +12,8 @@ body {
 
 
 
+
+
 .header {
     height: calc(100vh - 80px);
     width: 45px;
@@ -162,7 +164,7 @@ hr {
 }
 
 .text-center {
-    width: 87vw;
+    width: calc(100% - 45px);
     padding-top: 10px; 
 }
 .flex-row-wrap-center {
@@ -194,7 +196,7 @@ hr {
 .main-center {
     background-color: #141922;
     height: 100%;
-    width: 100vw;
+    width: calc(100% - 45px);
     color: white;
     /* margin-left:40px ;
     margin-top: 90px; */
@@ -307,7 +309,8 @@ hr {
     }
 
     .main-center {
-        margin-left:200px ;
+        margin-left:200px;
+        width: calc(100% - 200px);
     }
 
     .text-center {
